@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 5%;
+  background-color: purple;
+  color: #f4f4f4;
+}
+
+.logo {
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+}
+
+.cta {
+  border: 1px solid white;
+  border-radius: 50px;
+  color: #f4f4f4;
+  padding: 5px 25px;
+}
+
+.nav-link {
+  display: flex;
+
+  &-item {
+    margin-right: 10px;
+    list-style: none;
+  }
+
+  &-text {
+    color: white;
+    text-decoration: none;
+  }
+}
